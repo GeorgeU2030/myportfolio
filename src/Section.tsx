@@ -7,7 +7,6 @@ interface sectionProps {
         alt: string;
         className?: string;
     }[];
-
 }
 
 export const Section = ({ title, images }: sectionProps) => (

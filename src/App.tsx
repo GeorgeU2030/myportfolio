@@ -126,6 +126,20 @@ function App() {
                 { href: "https://nba-simulator-app.vercel.app/", src: "/link.png", alt: "vercel" },
               ]}
             />
+            <ProjectCard
+              imageSrc="/electrotech.png"
+              altText="electrotechproject"
+              title="ElectroTech"
+              techStack={[
+                { src: "/react.png", alt: "react" },
+                { src: "/nestjs.png", alt: "nest" },
+                { src: "/mongo.png", alt: "mongo" },
+              ]}
+              links={[
+                { href: "https://github.com/GeorgeU2030/electrotech-backend", src: "/githubwhite.png", alt: "github" },
+                { href: "https://electrotech-psi.vercel.app/", src: "/link.png", alt: "vercel" },
+              ]}
+            />
           
           </div>
         

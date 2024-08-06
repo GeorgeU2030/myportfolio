@@ -6,7 +6,7 @@ interface ProjectCardProps {
     title: string;
     techStack: { src: string; alt: string }[];
     links: { href: string; src: string; alt: string }[];
-  }
+}
   
 export const ProjectCard: React.FC<ProjectCardProps> = ({ imageSrc, altText, title, techStack, links }) => (
     <div className='flex flex-col border-p'>
